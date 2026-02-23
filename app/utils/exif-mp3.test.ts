@@ -59,7 +59,7 @@ test("MP3 metadata update", async () => {
   // Verify updates
   expect(readMetadata.title).toBe("Updated Title");
   expect(readMetadata.workflow).toBe("Test Workflow");
-  expect(readMetadata.artist).toBe("Hanzo Studio"); // Artist should be preserved
+  expect(readMetadata.artist).toBe("HanzoStudio"); // Artist should be preserved
 });
 
 test("MP3 metadata preservation", async () => {
