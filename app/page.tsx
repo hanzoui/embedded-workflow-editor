@@ -172,7 +172,8 @@ export default function Home() {
     >
       <div className="flex flex-col gap-4 config bg-dark shadow-lg p-4 w-[40em] max-h-screen rounded-lg">
         <h2 className="text-lg font-bold">
-          Hanzo Studio Workflow Editor <i className="text-xs">in your browser</i>
+          Hanzo Studio Workflow Editor{" "}
+          <i className="text-xs">in your browser</i>
         </h2>
         <div className="flex flex-col gap-1">
           <div className="">
