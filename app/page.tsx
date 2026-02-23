@@ -32,7 +32,7 @@ export default function Home() {
   //       type: "image/png",
   //     },
   //   ],
-  //   name: "ComfyUI Embedded Workflow Editor",
+  //   name: "Hanzo Studio Embedded Workflow Editor",
   //   short_name: "CWE",
   //   start_url: globalThis.window?.location.origin ?? "/",
   // });
@@ -172,7 +172,7 @@ export default function Home() {
     >
       <div className="flex flex-col gap-4 config bg-dark shadow-lg p-4 w-[40em] max-h-screen rounded-lg">
         <h2 className="text-lg font-bold">
-          ComfyUI Workflow Editor <i className="text-xs">in your browser</i>
+          Hanzo Studio Workflow Editor <i className="text-xs">in your browser</i>
         </h2>
         <div className="flex flex-col gap-1">
           <div className="">
@@ -263,7 +263,7 @@ export default function Home() {
             >
               Way-3. Mount a Folder
             </button>
-            <i>* possibly choose /ComfyUI/output</i>
+            <i>* possibly choose /Hanzo Studio/output</i>
           </div>
         </div>
         <br />
@@ -485,7 +485,7 @@ export default function Home() {
       </div>
       <span id="forkongithub">
         <a
-          href="https://github.com/snomiao/ComfyUI-embeded-workflow-editor"
+          href="https://github.com/snomiao/Hanzo Studio-embeded-workflow-editor"
           target="_blank"
         >
           Fork me on GitHub

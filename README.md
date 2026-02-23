@@ -1,12 +1,12 @@
-# ComfyUI embedded workflow editor
+# Hanzo Studio embedded workflow editor
 
-In-place embedded workflow-exif editing experience for ComfyUI generated media files. Edit workflow data embedded in PNG, WEBP, FLAC, MP3, and MP4 files directly in your browser.
+In-place embedded workflow-exif editing experience for Hanzo Studio generated media files. Edit workflow data embedded in PNG, WEBP, FLAC, MP3, and MP4 files directly in your browser.
 
 ![screenshot](docs/screenshot.png)
 
 ## Usage
 
-1. Open https://comfyui-embeded-workflow-editor.vercel.app/
+1. Open https://hanzo-studio-embeded-workflow-editor.vercel.app/
 2. Upload your img (or mount your local directory)
    - Supported formats: PNG, WEBP, FLAC, MP3, MP4
    - You can also directly load a file via URL parameter: `?url=https://example.com/image.png`
@@ -25,7 +25,7 @@ In-place embedded workflow-exif editing experience for ComfyUI generated media f
   - [ ] jpg (seems not possible yet)
 - [x] Show preview img to ensure you are editing the right image (thumbnail)
 - [ ] Support for other exif tags ("prompt", ...)
-- [ ] maybe provide cli tool, [create issue to request this function](https://github.com/Comfy-Org/ComfyUI-embedded-workflowd -editor/issues/new)
+- [ ] maybe provide cli tool, [create issue to request this function](https://github.com/hanzoai/studio-embedded-workflowd -editor/issues/new)
   - `comfy-meta get --key=workflow img.webp > workflow.json`
   - `comfy-meta set img.webp --key=workflow --value=workflow.json`
 
@@ -36,7 +36,7 @@ Requirements: - [Bun — A fast all-in-one JavaScript runtime](https://bun.sh/)
 Run the following commands start your development:
 
 ```
-git clone https://github.com/snomiao/ComfyUI-embeded-workflow-editor
+git clone https://github.com/snomiao/Hanzo Studio-embeded-workflow-editor
 cd
 bun install
 bun dev
@@ -46,7 +46,7 @@ bun dev
 
 Wanna edit by node?
 
-See also: https://comfyui-wiki.github.io/ComfyUI-Workflow-JSON-Editor/
+See also: https://hanzo-studio-wiki.github.io/Hanzo Studio-Workflow-JSON-Editor/
 
 ## About
 

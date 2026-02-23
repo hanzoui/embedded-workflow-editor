@@ -7,7 +7,7 @@
   
 */
 const comfyapiCandidates = [
-  // comfy-cli
+  // hanzo-cli
   "http://localhost:8188",
   // electron
   "http://localhost:8000",

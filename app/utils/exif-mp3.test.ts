@@ -2,7 +2,7 @@ import { getMp3Metadata, setMp3Metadata } from "./exif-mp3";
 
 test("MP3 metadata extraction", async () => {
   // Read test MP3 file
-  const testFile = Bun.file("tests/mp3/ComfyUI_00047_.mp3");
+  const testFile = Bun.file("tests/mp3/Hanzo Studio_00047_.mp3");
   const buffer = await testFile.arrayBuffer();
 
   // Extract metadata
@@ -17,7 +17,7 @@ test("MP3 metadata extraction", async () => {
 
 test("MP3 metadata write and read", async () => {
   // Read test MP3 file
-  const testFile = Bun.file("tests/mp3/ComfyUI_00047_.mp3");
+  const testFile = Bun.file("tests/mp3/Hanzo Studio_00047_.mp3");
   const buffer = await testFile.arrayBuffer();
 
   // Create test workflow JSON
@@ -38,13 +38,13 @@ test("MP3 metadata write and read", async () => {
 
 test("MP3 metadata update", async () => {
   // Read test MP3 file
-  const testFile = Bun.file("tests/mp3/ComfyUI_00047_.mp3");
+  const testFile = Bun.file("tests/mp3/Hanzo Studio_00047_.mp3");
   const buffer = await testFile.arrayBuffer();
 
   // First, add some metadata - now we can pass the Buffer directly
   const modified1 = setMp3Metadata(buffer, {
     title: "Test Title",
-    artist: "ComfyUI",
+    artist: "Hanzo Studio",
   });
 
   // Then, update the title but keep the artist - no need for conversion
@@ -59,12 +59,12 @@ test("MP3 metadata update", async () => {
   // Verify updates
   expect(readMetadata.title).toBe("Updated Title");
   expect(readMetadata.workflow).toBe("Test Workflow");
-  expect(readMetadata.artist).toBe("ComfyUI"); // Artist should be preserved
+  expect(readMetadata.artist).toBe("Hanzo Studio"); // Artist should be preserved
 });
 
 test("MP3 metadata preservation", async () => {
   // Read test MP3 file
-  const testFile = Bun.file("tests/mp3/ComfyUI_00047_.mp3");
+  const testFile = Bun.file("tests/mp3/Hanzo Studio_00047_.mp3");
   const originalBuffer = await testFile.arrayBuffer();
 
   // Get original metadata

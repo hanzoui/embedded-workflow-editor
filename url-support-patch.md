@@ -1,6 +1,6 @@
 # URL Support Patch
 
-This patch adds URL parameter support to the ComfyUI Embedded Workflow Editor.
+This patch adds URL parameter support to the Hanzo Studio Embedded Workflow Editor.
 
 1. Step 1: Add the import for useSearchParams
 

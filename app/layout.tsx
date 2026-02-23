@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "ComfyUI Embeded Workflow Editor",
-  description: "ComfyUI Embeded Workflow Editor",
+  title: "Hanzo Studio Embeded Workflow Editor",
+  description: "Hanzo Studio Embeded Workflow Editor",
 };
 
 export default function RootLayout({

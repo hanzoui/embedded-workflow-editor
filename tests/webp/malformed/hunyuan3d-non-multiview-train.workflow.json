@@ -126,7 +126,7 @@
         },
         "Background Color": "#141414"
       },
-      "widgets_values": ["mesh/ComfyUI", ""]
+      "widgets_values": ["mesh/Hanzo Studio", ""]
     },
     {
       "id": 66,
@@ -321,7 +321,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "Download [hunyuan3d-dit-v2/model.fp16.safetensors](https://huggingface.co/tencent/Hunyuan3D-2/blob/main/hunyuan3d-dit-v2-0/model.fp16.safetensors) and rename to **hunyuan3d-dit-v2.safetensorss**\n\nPut it in the **ComfyUI/models/checkpoints** directory"
+        "Download [hunyuan3d-dit-v2/model.fp16.safetensors](https://huggingface.co/tencent/Hunyuan3D-2/blob/main/hunyuan3d-dit-v2-0/model.fp16.safetensors) and rename to **hunyuan3d-dit-v2.safetensorss**\n\nPut it in the **Hanzo Studio/models/checkpoints** directory"
       ],
       "color": "#432",
       "bgcolor": "#653"
