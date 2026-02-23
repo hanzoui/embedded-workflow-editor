@@ -36,7 +36,7 @@ Requirements: - [Bun — A fast all-in-one JavaScript runtime](https://bun.sh/)
 Run the following commands start your development:
 
 ```
-git clone https://github.com/snomiao/Hanzo Studio-embeded-workflow-editor
+git clone https://github.com/snomiao/HanzoStudio-embeded-workflow-editor
 cd
 bun install
 bun dev
@@ -46,7 +46,7 @@ bun dev
 
 Wanna edit by node?
 
-See also: https://hanzo-studio-wiki.github.io/Hanzo Studio-Workflow-JSON-Editor/
+See also: https://hanzo-studio-wiki.github.io/HanzoStudio-Workflow-JSON-Editor/
 
 ## About
 

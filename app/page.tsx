@@ -264,7 +264,7 @@ export default function Home() {
             >
               Way-3. Mount a Folder
             </button>
-            <i>* possibly choose /Hanzo Studio/output</i>
+            <i>* possibly choose /HanzoStudio/output</i>
           </div>
         </div>
         <br />
@@ -486,7 +486,7 @@ export default function Home() {
       </div>
       <span id="forkongithub">
         <a
-          href="https://github.com/snomiao/Hanzo Studio-embeded-workflow-editor"
+          href="https://github.com/snomiao/HanzoStudio-embeded-workflow-editor"
           target="_blank"
         >
           Fork me on GitHub
