@@ -2,7 +2,7 @@ import { getPngMetadata, setPngMetadata } from "@/app/utils/exif-png";
 import { glob } from "glob";
 
 it("extract png workflow", async () => {
-  const pngs = await glob("./tests/png/Hanzo Studio_*.png");
+  const pngs = await glob("./tests/png/HanzoStudio_*.png");
   expect(pngs.length).toBeGreaterThanOrEqual(1);
 
   for await (const filename of pngs) {
@@ -18,7 +18,7 @@ it("extract png workflow", async () => {
 });
 
 it("set png workflow", async () => {
-  const pngs = await glob("./tests/png/Hanzo Studio_*.png");
+  const pngs = await glob("./tests/png/HanzoStudio_*.png");
   expect(pngs.length).toBeGreaterThanOrEqual(1);
 
   for await (const filename of pngs) {
