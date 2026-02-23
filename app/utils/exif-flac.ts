@@ -129,7 +129,7 @@ export function setFlacMetadata(
   }
 
   // Extract existing vendor string from the vorbis comment block if it exists
-  let vendorString = "ComfyUI Embedded Workflow Editor";
+  let vendorString = "Hanzo Studio Embedded Workflow Editor";
   let existingMetadata: Record<string, string> = {};
 
   if (vorbisCommentOffset !== -1) {

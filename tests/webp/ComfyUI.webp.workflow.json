@@ -172,7 +172,7 @@
       "inputs": [{ "name": "images", "type": "IMAGE", "link": 59 }],
       "outputs": [],
       "properties": {},
-      "widgets_values": ["ComfyUI", 6, true, 80, "default"]
+      "widgets_values": ["Hanzo Studio", 6, true, 80, "default"]
     },
     {
       "id": 8,
@@ -203,7 +203,7 @@
       "inputs": [{ "name": "images", "type": "IMAGE", "link": 9 }],
       "outputs": [],
       "properties": {},
-      "widgets_values": ["ComfyUI"]
+      "widgets_values": ["Hanzo Studio"]
     }
   ],
   "links": [

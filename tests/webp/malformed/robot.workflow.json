@@ -187,7 +187,7 @@
       "inputs": [{ "name": "images", "type": "IMAGE", "link": 215 }],
       "outputs": [],
       "properties": {},
-      "widgets_values": ["ComfyUI", 24, false, 80, "default", ""]
+      "widgets_values": ["Hanzo Studio", 24, false, 80, "default", ""]
     },
     {
       "id": 67,
@@ -462,27 +462,27 @@
   "models": [
     {
       "name": "llava_llama3_vision.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/clip_vision/llava_llama3_vision.safetensors?download=true",
+      "url": "https://huggingface.co/hanzoui/HunyuanVideo_repackaged/resolve/main/split_files/clip_vision/llava_llama3_vision.safetensors?download=true",
       "directory": "clip_vision"
     },
     {
       "name": "clip_l.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/clip_l.safetensors?download=true",
+      "url": "https://huggingface.co/hanzoui/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/clip_l.safetensors?download=true",
       "directory": "text_encoders"
     },
     {
       "name": "llava_llama3_fp16.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp16.safetensors?download=true",
+      "url": "https://huggingface.co/hanzoui/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp16.safetensors?download=true",
       "directory": "text_encoders"
     },
     {
       "name": "hunyuan_video_vae_bf16.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true",
+      "url": "https://huggingface.co/hanzoui/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true",
       "directory": "vae"
     },
     {
       "name": "hunyuan_video_image_to_video_720p_bf16.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_image_to_video_720p_bf16.safetensors?download=true",
+      "url": "https://huggingface.co/hanzoui/HunyuanVideo_repackaged/resolve/main/split_files/diffusion_models/hunyuan_video_image_to_video_720p_bf16.safetensors?download=true",
       "directory": "diffusion_models"
     }
   ],

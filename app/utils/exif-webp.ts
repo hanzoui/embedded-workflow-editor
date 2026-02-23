@@ -8,8 +8,8 @@ export const EXIF_TAGS = {
   // Using Make tag for workflow
   Make: 0x010f, // Exif.Image.Make 271 workflow
 
-  // comfyanonymous/ComfyUI is Using Model tag for prompt
-  // https://github.com/comfyanonymous/ComfyUI/blob/98bdca4cb2907ad10bd24776c0b7587becdd5734/comfy_extras/nodes_images.py#L116C1-L116C74
+  // hanzoai/studio is Using Model tag for prompt
+  // https://github.com/hanzoai/studio/blob/98bdca4cb2907ad10bd24776c0b7587becdd5734/comfy_extras/nodes_images.py#L116C1-L116C74
   // metadata[0x0110] = "prompt:{}".format(json.dumps(prompt))
   Model: 0x0110, // Exif.Image.Model 272 prompt:
 

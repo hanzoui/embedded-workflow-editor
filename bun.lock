@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "comfyui-embedded-workflow-editor",
+      "name": "hanzo-studio-embedded-workflow-editor",
       "dependencies": {
         "@monaco-editor/react": "^4.6.0",
         "@types/bun": "^1.1.14",

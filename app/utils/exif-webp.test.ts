@@ -105,7 +105,7 @@ describe("WebP EXIF metadata", () => {
     expect(metadata.workflow).toBe(newWorkflow);
   });
 
-  it("should preserve workflow key format for ComfyUI compatibility", async () => {
+  it("should preserve workflow key format for Hanzo Studio compatibility", async () => {
     const files = await glob("./tests/webp/*.webp");
     expect(files.length).toBeGreaterThanOrEqual(1);
     const webp = Bun.file(files[0]);

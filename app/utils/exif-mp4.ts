@@ -440,7 +440,7 @@ function parseUuidBox(
   end: number,
   metadata: Record<string, string>,
 ) {
-  // Check for ComfyUI workflow UUID
+  // Check for Hanzo Studio workflow UUID
   // Using a generic UUID for demonstration
   const WORKFLOW_UUID = [
     0x63,
